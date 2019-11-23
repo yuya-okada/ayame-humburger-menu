@@ -7,7 +7,7 @@ JavaScriptはそのまま使うこともできるんだけど，WEBでは実は�
 
  -> WEBでは，jQueryっていうJavaScriptを使いやすくするためのライブラリを用いることが多い
  
-jQueryを使うためには下の1行をHTMLファイルの<head>タグの中のどっかに入れよう！
+jQueryを使うためには下の1行をHTMLファイルのheadタグの中のどっかに入れよう！
  
 ```html
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@ jQueryを使うためには下の1行をHTMLファイルの<head>タグの中の
 
 JavaScriptのプログラムを作るために，まずはプログラムを書くためのJavaScriptファイルとして，index.htmlがあるのと同じフォルダの中に「main.js」というファイルを作ろう！
 
-作ったら，そのファイルをHTMLから読み込むために，下の1行をHTMLファイルの<head>タグの中のどっかに入れよう！
+作ったら，そのファイルをHTMLから読み込むために，下の1行をHTMLファイルのheadタグの中のどっかに入れよう！
 
 
 ```html
@@ -124,6 +124,7 @@ $("#hogehoge").click(() => {
 
 ```　 
 
+
 って書くかんじ！
 ということで，今回のコードの内容は，「menu-buttonっていうIDの要素をクリックしたら”こんにちは”っていうアラートを表示する」っていう意味になるよ
 
@@ -131,7 +132,7 @@ $("#hogehoge").click(() => {
 
 「ボタンをクリックしたら○○する」が作れるようになったらから，いよいよ「ボタンをクリックしたらメニューを表示する」を実装しよう！でもその前に，HTMLで，表示するメニューを先に作っておこう！
 
-まずはindex.htmlの<body>タグの中の一番上に以下のコードを入力
+まずはindex.htmlのbodyタグの中の一番上に以下のコードを入力
 
 
 ```html
