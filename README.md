@@ -70,8 +70,8 @@ index.htmlのbodyの一番最初に，下のコードを追加．
 
 ```css
 #menu-button {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background-color: #aaaaaa;
   position: absolute;
   top: 0;
@@ -140,8 +140,8 @@ $("#hogehoge").click(() => {
 <div id="menu">
   <a href="#"> メニューだよ </a>
 </div>
+```
 
-```　 
 
 上のコードができたらCSSに下のコードを追加しよう
 
