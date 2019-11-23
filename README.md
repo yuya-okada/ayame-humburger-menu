@@ -5,7 +5,7 @@
 
 JavaScriptはそのまま使うこともできるんだけど，WEBでは実は生で使うと結構使いづらい！
 
- -> WEBでは，jQueryっていうJavaScriptを使いやすくするためのライブラリを用いることが多い
+ → WEBでは，jQueryっていうJavaScriptを使いやすくするためのライブラリを用いることが多い
  
 jQueryを使うためには下の1行をHTMLファイルのheadタグの中のどっかに入れよう！
  
@@ -76,6 +76,7 @@ index.htmlのbodyの一番最初に，下のコードを追加．
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 ```
 
