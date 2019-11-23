@@ -146,7 +146,6 @@ $("#hogehoge").click(() => {
 
 
 ```css
-
 #menu {
   position: fixed;
   top: 0;
@@ -154,6 +153,11 @@ $("#hogehoge").click(() => {
   left: 0;
   width: 45%;
   background-color: #717171;
+}
+
+#menu-content {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,10 +178,15 @@ $("#hogehoge").click(() => {
   left: 0;
   width: 45%;
   background-color: #717171;
+  display: none;
+}
+
+#menu-content {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  visibility: hidden;
 }
 
 ```
@@ -195,7 +204,7 @@ main.jsを以下のように編集！
 
 $(() => {
   $("#menu-button").click(() => {
-    $("#menu").fadeToggle(1000);
+    $("#menu").fadeToggle(500);
   })
 })
 ```
@@ -206,12 +215,12 @@ $(() => {
 
 ```js
 
-    $("#menu").fadeToggle(1000);
+    $("#menu").fadeToggle(500);
 
 ```
 
 は，「IDがmenuの要素を表示/非表示する」っていう意味．これを書いたからボタンがクリックされるたびにメニューが出てきたり消えたりするようになった
 
 1000ってところはフェードイン・フェードアウトにかかる時間を指定してるよ．
-1000だと1秒， 3000だと3秒， 2500だと2.5秒みたいな感じで秒数を1000倍した値を入れると，その秒数かけて現れたり消えたりするようになるから色々調節してみてね
+500だと0.5秒，1000だと1秒，2000だと２秒，みたいな感じで秒数を1000倍した値を入れると，その秒数かけて現れたり消えたりするようになるから色々調節してみてね
 ．
