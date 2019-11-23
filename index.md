@@ -192,7 +192,7 @@ $("#hogehoge").click(() => {
 
 ```
 
-今書いた「visibility: invisible」は，要素を非表示にできるCSSだよ
+今書いた「display: none」は，要素を非表示にできるCSSだよ
 
 # ボタンが押されたらメニューを表示する
 
