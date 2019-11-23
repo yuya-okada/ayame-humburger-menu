@@ -121,8 +121,7 @@ $("#menu-button").click(() => {
 $("#hogehoge").click(() => {
 
 })
-
-```　 
+```
 
 
 って書くかんじ！
