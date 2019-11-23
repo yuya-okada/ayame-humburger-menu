@@ -154,9 +154,12 @@ $("#hogehoge").click(() => {
   left: 0;
   width: 45%;
   background-color: #717171;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+```
 
-```　 
 
 ここまでかけたらブラウザをリロードしてみよう．画面の左側にグレーのメニューが表示されたらOK!メニューの中身は後々実装するから今はとりあえずこれで大丈夫１
 
@@ -171,12 +174,15 @@ $("#hogehoge").click(() => {
   left: 0;
   width: 45%;
   background-color: #717171;
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: invisible;
 }
 
-```　 
+```
 
-今書いた「display: none」は，要素を非表示にできるCSSだよ
+今書いた「visibility: invisible」は，要素を非表示にできるCSSだよ
 
 # ボタンが押されたらメニューを表示する
 
